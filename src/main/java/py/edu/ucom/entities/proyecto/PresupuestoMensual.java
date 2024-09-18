@@ -26,7 +26,7 @@ import jakarta.persistence.TemporalType;
 
 /**
  *
- * @author jhony
+ * @author Ana
  */
 @Entity
 @Table(name = "presupuesto_mensual")

@@ -12,7 +12,7 @@ import jakarta.persistence.Embeddable;
 
 /**
  *
- * @author jhony
+ * @author Ana
  */
 @Embeddable
 public class PresupuestoCategoriaPK implements Serializable {

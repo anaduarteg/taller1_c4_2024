@@ -18,7 +18,7 @@ import jakarta.persistence.Table;
 
 /**
  *
- * @author jhony
+ * @author Ana
  */
 @Entity
 @Table(name = "presupuesto_categoria")
