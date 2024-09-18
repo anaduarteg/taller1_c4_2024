@@ -19,7 +19,7 @@ import py.edu.ucom.model.response.ApiResponse;
 import py.edu.ucom.services.api.ApiResponseService;
 import py.edu.ucom.services.api.GenericDaoServiceWithJason;
 
-@Path("/api-example")
+@Path("/api-example/py")
 public class ApiResponseResource {
     @Inject
     private ApiResponseService servicioConInject;

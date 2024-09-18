@@ -20,12 +20,12 @@ import ucom.py.model.response.ApiResponse;
 import ucom.py.services.api.ApiResponseService;
 import ucom.py.services.api.GenericDAOServicesWithJson;
 
-@Path("/api-examples")
+@Path("/api-examples/ucom")
 public class ApiResponseResource {
     @Inject
     private ApiResponseService servicioConInject;
 
-    private GenericDAOServicesWithJson serviceConConstructor;
+    private final GenericDAOServicesWithJson serviceConConstructor;
 
     public ApiResponseResource(GenericDAOServicesWithJson instanciaService) {
         this.serviceConConstructor = instanciaService;

@@ -10,7 +10,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import ucom.py.entities.HolaMundo;
 
-@Path("/recursos-basicos")
+@Path("/recursos-basicos/ucom")
 public class RecursosBasicos {
 
     // Creo un método GET que retorna un mensaje de texto plano como prueba.

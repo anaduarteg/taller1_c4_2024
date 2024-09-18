@@ -10,7 +10,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import py.edu.ucom.entities.HolaMundo;
 
-@Path("/recursos-basicos")
+@Path("/recursos-basicos/py")
 public class RecursosBasicos {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
